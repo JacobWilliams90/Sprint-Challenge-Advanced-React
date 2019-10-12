@@ -11,6 +11,7 @@ const DarkMode = () => {
   return (
     <button
       onClick={toggleMode}
+      data-testid='button'
       className={darkMode ? "toggle toggled" : "toggle"}
     >
       Dark Mode Toggle
